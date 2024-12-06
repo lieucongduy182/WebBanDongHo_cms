@@ -112,14 +112,14 @@ export const PhieuNhapDocument = ({
             <Text style={styles.textStyle}>Mã phiếu: {phieunhap.mapn}</Text>
 
             <Text style={styles.textStyle}>
-              Mã đơn đặt hàng: {phieunhap.dondathang.madnh}
+              Mã đơn nhập hàng: {phieunhap.donnhaphang.madnh}
             </Text>
 
             <Text style={styles.textStyle}>
-              Nhà cung cấp: {phieunhap.dondathang.nhacungcap.tenncc}
+              Nhà cung cấp: {phieunhap.donnhaphang.nhacungcap.tenncc}
             </Text>
             <Text style={styles.textStyle}>
-              Địa chỉ: {phieunhap.dondathang.nhacungcap.diachi}
+              Địa chỉ: {phieunhap.donnhaphang.nhacungcap.diachi}
             </Text>
 
             <Text style={styles.textStyle}>

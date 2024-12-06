@@ -1,6 +1,6 @@
-import { DonDatHangType } from "./dondathang";
-import { NhanVienType } from "./nhanvien";
-import { SanPhamType } from "./sanpham";
+import { DonDatHangType } from './dondathang';
+import { NhanVienType } from './nhanvien';
+import { SanPhamType } from './sanpham';
 
 export interface DanhSachSanPhamPhieuNhapType {
   masp: string;
@@ -21,7 +21,7 @@ export interface ID_CT_PhieuNhap {
 }
 
 export interface PhieuNhapType {
-  dondathang: DonDatHangType;
+  donnhaphang: DonDatHangType;
   ngaydat: string;
   mapn: string;
   nhanvien: NhanVienType;

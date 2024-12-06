@@ -35,7 +35,7 @@ export const DonDatHangPage = () => {
   }, []);
 
   const handleEdit = (dondathang: DonDatHangType) => {
-    navigate(`/admin/dondathang/${dondathang.madnh}`);
+    // navigate(`/admin/dondathang/${dondathang.madnh}`);
   };
 
   const handleDelete = async (dondathang: DonDatHangType) => {

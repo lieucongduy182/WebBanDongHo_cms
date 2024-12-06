@@ -64,8 +64,8 @@ const PhieuNhapPage = () => {
                 <Tr key={index}>
                   <Td>{phieunhap.mapn}</Td>
                   <Td>{moment(phieunhap.ngaydat).format("DD-MM-YYYY")}</Td>
-                  <Td>{phieunhap.dondathang.madnh}</Td>
-                  <Td>{phieunhap.dondathang.nhacungcap.tenncc}</Td>
+                  <Td>{phieunhap.donnhaphang.madnh}</Td>
+                  <Td>{phieunhap.donnhaphang.nhacungcap.tenncc}</Td>
                   <Td>{phieunhap.nhanvien.hoten}</Td>
                   <Td>
                     <PDFDownloadLink
