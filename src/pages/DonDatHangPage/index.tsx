@@ -35,7 +35,7 @@ export const DonDatHangPage = () => {
   }, []);
 
   const handleEdit = (dondathang: DonDatHangType) => {
-    navigate(`/admin/dondathang/${dondathang.mddh}`);
+    navigate(`/admin/dondathang/${dondathang.madnh}`);
   };
 
   const handleDelete = async (dondathang: DonDatHangType) => {
@@ -85,7 +85,7 @@ export const DonDatHangPage = () => {
             <Tbody>
               {listDonDatHang.map((dondathang: DonDatHangType, index) => (
                 <Tr key={index}>
-                  <Td>{dondathang.mddh}</Td>
+                  <Td>{dondathang.madnh}</Td>
                   <Td>{moment(dondathang.ngaydat).format("DD-MM-YYYY")}</Td>
                   <Td>{dondathang.nhacungcap.tenncc}</Td>
                   <Td>{dondathang.nhanvien.hoten}</Td>

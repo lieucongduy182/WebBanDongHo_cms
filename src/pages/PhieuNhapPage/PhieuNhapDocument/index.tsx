@@ -112,7 +112,7 @@ export const PhieuNhapDocument = ({
             <Text style={styles.textStyle}>Mã phiếu: {phieunhap.mapn}</Text>
 
             <Text style={styles.textStyle}>
-              Mã đơn đặt hàng: {phieunhap.dondathang.mddh}
+              Mã đơn đặt hàng: {phieunhap.dondathang.madnh}
             </Text>
 
             <Text style={styles.textStyle}>

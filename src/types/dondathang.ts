@@ -1,6 +1,6 @@
-import { NhaCungCapFormType } from "./nhacungcap";
-import { NhanVienType } from "./nhanvien";
-import { SanPhamType } from "./sanpham";
+import { NhaCungCapFormType } from './nhacungcap';
+import { NhanVienType } from './nhanvien';
+import { SanPhamType } from './sanpham';
 
 export interface ID_CT_DonDatHang {
   maddh: string;
@@ -21,7 +21,7 @@ export interface DonDatHangFormType {
 }
 
 export interface DonDatHangType {
-  mddh: string;
+  madnh: string;
   ngaydat: string;
   nhacungcap: NhaCungCapFormType;
   nhanvien: NhanVienType;

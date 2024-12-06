@@ -100,15 +100,15 @@ const SanPhamEdit = () => {
     console.log(data);
     const formData = new FormData();
     formData.append("file", data.image[0] as string);
-    formData.append("upload_preset", "project_xedap");
+    formData.append("upload_preset", "project_dongho");
 
     const formData2 = new FormData();
     formData2.append("file", data.image2[0] as string);
-    formData2.append("upload_preset", "project_xedap");
+    formData2.append("upload_preset", "project_dongho");
 
     const formData3 = new FormData();
     formData3.append("file", data.image3[0] as string);
-    formData3.append("upload_preset", "project_xedap");
+    formData3.append("upload_preset", "project_dongho");
 
     // eslint-disable-next-line @typescript-eslint/no-unused-vars, prefer-const
     let image = data.image;
@@ -121,7 +121,7 @@ const SanPhamEdit = () => {
     if (typeof data.image !== "string" && data.image.length > 0) {
       await axiosClient
         .post(
-          "https://api.cloudinary.com/v1_1/dnk2nocdt/image/upload",
+          "https://api.cloudinary.com/v1_1/dt3ibkgcn/image/upload",
           formData,
         )
         .then((response) => {
@@ -132,7 +132,7 @@ const SanPhamEdit = () => {
     if (typeof data.image2 !== "string" && data.image2.length > 0) {
       await axiosClient
         .post(
-          "https://api.cloudinary.com/v1_1/dnk2nocdt/image/upload",
+          "https://api.cloudinary.com/v1_1/dt3ibkgcn/image/upload",
           formData2,
         )
         .then((response) => {
@@ -142,7 +142,7 @@ const SanPhamEdit = () => {
     if (typeof data.image3 !== "string" && data.image3.length > 0) {
       await axiosClient
         .post(
-          "https://api.cloudinary.com/v1_1/dnk2nocdt/image/upload",
+          "https://api.cloudinary.com/v1_1/dt3ibkgcn/image/upload",
           formData3,
         )
         .then((response) => {
