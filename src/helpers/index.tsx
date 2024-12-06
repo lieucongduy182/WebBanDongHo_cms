@@ -2,8 +2,8 @@ export const ConvertPrice = (price: number): string => {
   if (!price || price === 0) {
     return "Miễn phí";
   }
-  return new Intl.NumberFormat("en-US", {
+  return new Intl.NumberFormat("vi-VN", {
     style: "currency",
-    currency: "USD",
+    currency: "VND",
   }).format(price);
 };

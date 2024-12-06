@@ -19,6 +19,7 @@ import { ButtonEdit } from "../../components/ui/ButtonEdit";
 import { Loading } from "../../components/ui/Loading";
 import { PageWrapper } from "../../components/ui/PageWrapper";
 import { TitlePage } from "../../components/ui/TitlePage";
+import { ConvertPrice } from "../../helpers";
 import { useAppDispatch, useAppSelector } from "../../hooks/app-hook";
 import { useToastCustom } from "../../hooks/useToastCustom";
 import { selectIsLoading, selectListNV } from "../../stores/nhanvien";
@@ -101,7 +102,7 @@ const NhanVienPage = () => {
                   <Td>{nhanvien.email}</Td>
                   <Td>{nhanvien.sdt}</Td>
                   <Td>{nhanvien.diachi}</Td>
-                  <Td>{nhanvien.luong}</Td>
+                  <Td>{ConvertPrice(nhanvien.luong)}</Td>
                   <Td>
                     <ButtonEdit onClick={() => handleEdit(nhanvien)} />
                   </Td>
