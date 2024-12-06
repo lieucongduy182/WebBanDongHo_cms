@@ -146,10 +146,10 @@ const routesConfig: RouteObject[] = [
             path: "/admin/binhluan",
             element: <BinhLuanPage />,
           },
-          {
-            path: "/admin/thongke",
-            element: <ThongKePage />,
-          },
+          // {
+          //   path: "/admin/thongke",
+          //   element: <ThongKePage />,
+          // },
         ],
       },
     ],
