@@ -48,14 +48,14 @@ const DonDatHangCreate = () => {
       });
       setListDS([]);
       toast({
-        title: "Tạo danh sách đơn đặt hàng",
-        description: "Tạo danh sách đơn đặt hàng thành công",
+        title: "Tạo danh sách đơn nhập hàng",
+        description: "Tạo danh sách đơn nhập hàng thành công",
         status: "success",
       });
       reset();
     } catch (error) {
       toast({
-        title: "Tạo đơn đặt hàng",
+        title: "Tạo đơn nhập hàng",
         description: (error as any).response.data,
         status: "error",
       });
@@ -65,7 +65,7 @@ const DonDatHangCreate = () => {
   return (
     <PageWrapper>
       <TitlePage
-        linkReturn={"/admin/dondathang"}
+        linkReturn={"/admin/donnhaphang"}
         isShowButtonCreate={false}
         title="Tạo đơn đặt hàng"
       />
@@ -75,7 +75,7 @@ const DonDatHangCreate = () => {
         errors={errors}
         handleSubmit={handleSubmit}
         onSubmit={onSubmit}
-        titleButton="Tạo đơn đặt hàng"
+        titleButton="Tạo đơn nhập hàng"
         setValue={setValue}
         listDS={listDS}
         setListDS={setListDS}

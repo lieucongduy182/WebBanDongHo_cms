@@ -112,7 +112,7 @@ export const HoaDonDocument = ({ hoadon }: { hoadon: HoaDonType }) => {
             <Text style={styles.textStyle}>Mã hoá đơn: {hoadon.mahd}</Text>
 
             <Text style={styles.textStyle}>
-              Mã đơn đặt hàng: {hoadon.donhang.madh}
+              Mã đơn nhập hàng: {hoadon.donhang.madh}
             </Text>
 
             <Text style={styles.textStyle}>

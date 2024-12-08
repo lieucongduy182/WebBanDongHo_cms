@@ -61,9 +61,9 @@ const listSidebar: SidebarType[] = [
     quyen: [1, 3],
   },
   {
-    link: "/admin/dondathang",
-    name: "Danh sách ĐĐH",
-    id: "danh-sach-don-dat-hang",
+    link: "/admin/donnhaphang",
+    name: "Danh sách đơn nhập hàng",
+    id: "danh-sach-don-nhap-hang",
     quyen: [1, 3],
   },
   {

@@ -119,11 +119,11 @@ const routesConfig: RouteObject[] = [
             element: <DonHangUserPage />,
           },
           {
-            path: "/admin/dondathang",
+            path: "/admin/donnhaphang",
             element: <DonDatHangPage />,
           },
           {
-            path: "/admin/dondathang/create",
+            path: "/admin/donnhaphang/create",
             element: <DonDatHangCreate />,
           },
           {

@@ -71,7 +71,7 @@ export const DonDatHangPage = () => {
       >
         <TableContainer>
           <Table variant="striped" colorScheme="gray">
-            <TableCaption>Danh sách đơn đạt hàng trong hệ thống</TableCaption>
+            <TableCaption>Danh sách đơn nhập hàng trong hệ thống</TableCaption>
             <Thead>
               <Tr>
                 <Th>Mã ĐĐH</Th>
@@ -108,10 +108,10 @@ export const DonDatHangPage = () => {
     <PageWrapper>
       <Flex direction={"column"} gap={10}>
         <TitlePage
-          title={"Danh sách đơn đặt hàng"}
-          titleButtonCreate="Thêm đơn đặt hàng"
+          title={"Danh sách đơn nhập hàng"}
+          titleButtonCreate="Thêm đơn nhập hàng"
           onClickCreate={() => {
-            navigate("/admin/dondathang/create");
+            navigate("/admin/donnhaphang/create");
           }}
         />
 

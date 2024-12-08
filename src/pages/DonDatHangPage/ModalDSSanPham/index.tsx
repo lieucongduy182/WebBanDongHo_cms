@@ -65,7 +65,7 @@ export const ModalDSSanPham = (props: Props) => {
     toast({
       description: "Thêm thành công",
       status: "success",
-      title: "Thêm sản phẩm đơn đặt hàng",
+      title: "Thêm sản phẩm đơn nhập hàng",
     });
   };
 
