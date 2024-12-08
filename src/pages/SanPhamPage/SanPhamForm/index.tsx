@@ -158,7 +158,7 @@ export const SanPhamForm = (props: Props) => {
           />
 
           <FormControl isRequired isInvalid={!!errors["image"]}>
-            <FormLabel mb={"4px"}>Hình 1</FormLabel>
+            <FormLabel mb={"4px"}>Hình ảnh</FormLabel>
 
             <input type="file" accept="image/*" {...register("image")} />
 
