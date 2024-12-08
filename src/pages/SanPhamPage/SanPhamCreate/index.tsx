@@ -57,13 +57,13 @@ const SanPhamCreate = () => {
     formData.append("file", data.image[0] as string);
     formData.append("upload_preset", "project_dongho");
 
-    const formData2 = new FormData();
-    formData2.append("file", data.image2[0] as string);
-    formData2.append("upload_preset", "project_dongho");
+    // const formData2 = new FormData();
+    // formData2.append("file", data.image2[0] as string);
+    // formData2.append("upload_preset", "project_dongho");
 
-    const formData3 = new FormData();
-    formData3.append("file", data.image3[0] as string);
-    formData3.append("upload_preset", "project_dongho");
+    // const formData3 = new FormData();
+    // formData3.append("file", data.image3[0] as string);
+    // formData3.append("upload_preset", "project_dongho");
 
     // eslint-disable-next-line @typescript-eslint/no-unused-vars, prefer-const
     let image = "";
@@ -84,33 +84,33 @@ const SanPhamCreate = () => {
         });
     }
 
-    if (data.image2.length > 0) {
-      await axiosClient
-        .post(
-          "https://api.cloudinary.com/v1_1/dt3ibkgcn/image/upload",
-          formData2,
-        )
-        .then((response) => {
-          image2 = response.data.url;
-        });
-    }
-    if (data.image3.length > 0) {
-      await axiosClient
-        .post(
-          "https://api.cloudinary.com/v1_1/dt3ibkgcn/image/upload",
-          formData3,
-        )
-        .then((response) => {
-          image3 = response.data.url;
-        });
-    }
+    // if (data.image2.length > 0) {
+    //   await axiosClient
+    //     .post(
+    //       "https://api.cloudinary.com/v1_1/dt3ibkgcn/image/upload",
+    //       formData2,
+    //     )
+    //     .then((response) => {
+    //       image2 = response.data.url;
+    //     });
+    // }
+    // if (data.image3.length > 0) {
+    //   await axiosClient
+    //     .post(
+    //       "https://api.cloudinary.com/v1_1/dt3ibkgcn/image/upload",
+    //       formData3,
+    //     )
+    //     .then((response) => {
+    //       image3 = response.data.url;
+    //     });
+    // }
 
     try {
       const response = await SanPhamService.createSanPham({
         ...data,
         image,
-        image2,
-        image3,
+        // image2,
+        // image3,
         slug: slugify(
           toLowerCaseNonAccentVietnamese(data.tensp) || "",
         ).toLowerCase(),

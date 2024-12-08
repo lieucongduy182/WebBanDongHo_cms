@@ -179,7 +179,7 @@ export const SanPhamForm = (props: Props) => {
             </FormErrorMessage>
           </FormControl>
 
-          <FormControl isRequired isInvalid={!!errors["image2"]}>
+          {/* <FormControl isRequired isInvalid={!!errors["image2"]}>
             <FormLabel mb={"4px"}>Hình 2</FormLabel>
 
             <input type="file" accept="image/*" {...register("image2")} />
@@ -198,28 +198,28 @@ export const SanPhamForm = (props: Props) => {
                 <Text>{errors["image2"]?.message as string}</Text>
               )}
             </FormErrorMessage>
-          </FormControl>
+          </FormControl> */}
 
-          <FormControl isRequired isInvalid={!!errors["image3"]}>
-            <FormLabel mb={"4px"}>Hình 3</FormLabel>
+          {/* <FormControl isRequired isInvalid={!!errors['image3']}>
+            <FormLabel mb={'4px'}>Hình 3</FormLabel>
 
-            <input type="file" accept="image/*" {...register("image3")} />
+            <input type="file" accept="image/*" {...register('image3')} />
             {isEdit && (
               <Image
-                src={(getValues && getValues("image3")) || ""}
+                src={(getValues && getValues('image3')) || ''}
                 alt=""
                 height={150}
-                objectFit={"contain"}
+                objectFit={'contain'}
                 w={150}
               />
             )}
 
-            <FormErrorMessage mt={"4px"}>
-              {!!errors["image3"] && (
-                <Text>{errors["image3"]?.message as string}</Text>
+            <FormErrorMessage mt={'4px'}>
+              {!!errors['image3'] && (
+                <Text>{errors['image3']?.message as string}</Text>
               )}
             </FormErrorMessage>
-          </FormControl>
+          </FormControl> */}
 
           <SelectCustom
             control={control}
