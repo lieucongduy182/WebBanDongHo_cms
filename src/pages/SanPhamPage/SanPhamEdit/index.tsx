@@ -128,8 +128,6 @@ const SanPhamEdit = () => {
         nhacungcap,
         danhmuc,
         image,
-        image2,
-        image3,
         slug: slugify(
           toLowerCaseNonAccentVietnamese(data.tensp) || "",
         ).toLowerCase(),
