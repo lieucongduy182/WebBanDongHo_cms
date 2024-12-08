@@ -84,12 +84,6 @@ const listSidebar: SidebarType[] = [
     id: "danh-sach-binh-luan",
     quyen: [1, 3],
   },
-  {
-    link: "/admin/thongke",
-    name: "Danh sách thống kê",
-    id: "danh-sach-thong-ke",
-    quyen: [1, 3],
-  },
 ];
 
 export const DefaultLayout = () => {
