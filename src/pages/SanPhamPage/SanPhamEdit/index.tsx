@@ -102,20 +102,8 @@ const SanPhamEdit = () => {
     formData.append("file", data.image[0] as string);
     formData.append("upload_preset", "project_dongho");
 
-    const formData2 = new FormData();
-    formData2.append("file", data.image2[0] as string);
-    formData2.append("upload_preset", "project_dongho");
-
-    const formData3 = new FormData();
-    formData3.append("file", data.image3[0] as string);
-    formData3.append("upload_preset", "project_dongho");
-
     // eslint-disable-next-line @typescript-eslint/no-unused-vars, prefer-const
     let image = data.image;
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars, prefer-const
-    let image2 = data.image2;
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars, prefer-const
-    let image3 = data.image3;
 
     setIsLoadingButton(true);
     if (typeof data.image !== "string" && data.image.length > 0) {
@@ -126,27 +114,6 @@ const SanPhamEdit = () => {
         )
         .then((response) => {
           image = response.data.url;
-        });
-    }
-
-    if (typeof data.image2 !== "string" && data.image2.length > 0) {
-      await axiosClient
-        .post(
-          "https://api.cloudinary.com/v1_1/dt3ibkgcn/image/upload",
-          formData2,
-        )
-        .then((response) => {
-          image2 = response.data.url;
-        });
-    }
-    if (typeof data.image3 !== "string" && data.image3.length > 0) {
-      await axiosClient
-        .post(
-          "https://api.cloudinary.com/v1_1/dt3ibkgcn/image/upload",
-          formData3,
-        )
-        .then((response) => {
-          image3 = response.data.url;
         });
     }
 
