@@ -86,8 +86,8 @@ const NhaCungCapPage = () => {
                 <Th>Địa chỉ nhà cung cấp</Th>
                 <Th>Email nhà cung cấp</Th>
                 <Th>SĐT nhà cung cấp</Th>
-                <Th>Edit</Th>
-                <Th>Delete</Th>
+                <Th>Chỉnh sửa</Th>
+                <Th>Xoá</Th>
               </Tr>
             </Thead>
             <Tbody>

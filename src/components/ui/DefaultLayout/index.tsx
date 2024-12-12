@@ -109,7 +109,7 @@ export const DefaultLayout = () => {
         <Box
           minW={"280px"}
           height={"180vh"}
-          backgroundColor={"#2e3836"}
+          backgroundColor={"#212631"}
           p={"32px 12px"}
         >
           <Flex direction={"column"} gap={10}>

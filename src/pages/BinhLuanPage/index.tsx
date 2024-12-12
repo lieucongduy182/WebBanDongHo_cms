@@ -114,7 +114,11 @@ const BinhLuanPage = () => {
   return (
     <PageWrapper>
       <Flex direction={"column"} gap={10}>
-        <TitlePage title={"Bình luận sản phẩm"} isShowButtonCreate={false} />
+        <TitlePage
+          title={"Bình luận sản phẩm"}
+          isShowButtonCreate={false}
+          isHideButtonReturn
+        />
 
         {renderData()}
       </Flex>

@@ -81,8 +81,8 @@ const DanhMucPage = () => {
               <Tr>
                 <Th>Mã danh mục</Th>
                 <Th>Tên danh mục</Th>
-                <Th>Edit</Th>
-                <Th>Delete</Th>
+                <Th>Chỉnh sửa</Th>
+                <Th>Xoá</Th>
               </Tr>
             </Thead>
             <Tbody>

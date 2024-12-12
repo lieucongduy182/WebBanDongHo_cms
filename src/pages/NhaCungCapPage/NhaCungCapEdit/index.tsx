@@ -64,13 +64,13 @@ const NhaCungCapEdit = () => {
       });
 
       toast({
-        title: "Update nhà cung cấp",
-        description: "Update nhà cung cấp thành công!",
+        title: "Chỉnh sửa nhà cung cấp",
+        description: "Chỉnh sửa nhà cung cấp thành công!",
         status: "success",
       });
     } catch (error) {
       toast({
-        title: "Update nhà cung cấp",
+        title: "Chỉnh sửa nhà cung cấp",
         description: "Đã xảy ra lỗi, vui lòng thử lại sau!",
         status: "error",
       });
@@ -109,7 +109,7 @@ const NhaCungCapEdit = () => {
       <TitlePage
         linkReturn={"/admin/nhacungcap"}
         isShowButtonCreate={false}
-        title="Update nhà cung cấp"
+        title="Chỉnh sửa nhà cung cấp"
       />
 
       {renderForm()}

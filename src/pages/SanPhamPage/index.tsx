@@ -91,8 +91,8 @@ const SanPhamPage = () => {
                 <Th>Thương hiệu</Th>
                 <Th>Danh mục</Th>
                 <Th>Nhà cung cấp</Th>
-                <Th>Update</Th>
-                <Th>Delete</Th>
+                <Th>Chỉnh sửa</Th>
+                <Th>Xoá</Th>
               </Tr>
             </Thead>
             <Tbody>

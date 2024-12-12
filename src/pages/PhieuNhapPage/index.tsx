@@ -94,7 +94,11 @@ const PhieuNhapPage = () => {
   return (
     <PageWrapper>
       <Flex direction={"column"} gap={10}>
-        <TitlePage title={"Danh sách phiếu nhập"} isShowButtonCreate={false} />
+        <TitlePage
+          title={"Danh sách phiếu nhập"}
+          isShowButtonCreate={false}
+          isHideButtonReturn
+        />
 
         {renderData()}
       </Flex>

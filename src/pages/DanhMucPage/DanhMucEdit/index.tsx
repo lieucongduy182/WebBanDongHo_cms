@@ -58,13 +58,13 @@ const DanhMucEdit = () => {
       });
 
       toast({
-        title: "Update danh mục",
-        description: "Update danh mục thành công!",
+        title: "Chỉnh sửa danh mục",
+        description: "Chỉnh sửa danh mục thành công!",
         status: "success",
       });
     } catch (error) {
       toast({
-        title: "Update danh mục",
+        title: "Chỉnh sửa danh mục",
         description: "Đã xảy ra lỗi, vui lòng thử lại sau!",
         status: "error",
       });
@@ -103,7 +103,7 @@ const DanhMucEdit = () => {
       <TitlePage
         linkReturn={"/admin/danhmuc"}
         isShowButtonCreate={false}
-        title="Update danh mục"
+        title="Chỉnh sửa danh mục"
       />
 
       {renderForm()}

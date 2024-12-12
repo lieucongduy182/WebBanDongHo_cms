@@ -83,8 +83,8 @@ const ThuongHieuPage = () => {
               <Tr>
                 <Th>Mã thương hiệu</Th>
                 <Th>Tên thương hiệu</Th>
-                <Th>Edit</Th>
-                <Th>Delete</Th>
+                <Th>Chỉnh sửa</Th>
+                <Th>Xoá</Th>
               </Tr>
             </Thead>
             <Tbody>

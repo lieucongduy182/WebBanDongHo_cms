@@ -134,15 +134,15 @@ const SanPhamEdit = () => {
       });
 
       toast({
-        title: "Update sản phẩm",
-        description: "Update sản phẩm thành công!",
+        title: "Chỉnh sửa sản phẩm",
+        description: "Chỉnh sửa sản phẩm thành công!",
         status: "success",
       });
       setIsLoadingButton(false);
       window.location.reload();
     } catch (error) {
       toast({
-        title: "Update sản phẩm",
+        title: "Chỉnh sửa sản phẩm",
         description: "Đã xảy ra lỗi, vui lòng thử lại sau!",
         status: "error",
       });
@@ -185,7 +185,7 @@ const SanPhamEdit = () => {
       <TitlePage
         linkReturn={"/admin/sanpham"}
         isShowButtonCreate={false}
-        title="Update sản phẩm"
+        title="Chỉnh sửa sản phẩm"
       />
 
       {renderForm()}

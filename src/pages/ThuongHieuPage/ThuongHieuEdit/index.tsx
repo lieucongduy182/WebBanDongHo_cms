@@ -58,13 +58,13 @@ export const ThuongHieuEdit = () => {
       });
 
       toast({
-        title: "Update thương hiệu",
-        description: "Update thương hiệu thành công!",
+        title: "Chỉnh sửa thương hiệu",
+        description: "Chỉnh sửa thương hiệu thành công!",
         status: "success",
       });
     } catch (error) {
       toast({
-        title: "Update thương hiệu",
+        title: "Chỉnh sửa thương hiệu",
         description: "Đã xảy ra lỗi, vui lòng thử lại sau!",
         status: "error",
       });
@@ -103,7 +103,7 @@ export const ThuongHieuEdit = () => {
       <TitlePage
         linkReturn={"/admin/thuonghieu"}
         isShowButtonCreate={false}
-        title="Update thương hiệu"
+        title="Chỉnh sửa thương hiệu"
       />
 
       {renderForm()}

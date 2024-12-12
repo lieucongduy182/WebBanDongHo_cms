@@ -9,16 +9,16 @@ export const ButtonEdit = (props: Props) => {
   return (
     <Button
       onClick={onClick}
-      backgroundColor={"#150872"}
+      backgroundColor={"#3399ff"}
       color={"white"}
       _hover={{
-        backgroundColor: "#150872",
+        backgroundColor: "#3399ff",
         transform: "scale(1.1)",
       }}
       transition="transform 0.2s ease-in-out"
       width={"120px"}
     >
-      Update
+      Chỉnh sửa
     </Button>
   );
 };

@@ -88,8 +88,8 @@ const NhanVienPage = () => {
                 <Th>SĐT</Th>
                 <Th>Địa chỉ</Th>
                 <Th>Lương</Th>
-                <Th>Update</Th>
-                <Th>Delete</Th>
+                <Th>Chỉnh sửa</Th>
+                <Th>Xoá</Th>
               </Tr>
             </Thead>
             <Tbody>

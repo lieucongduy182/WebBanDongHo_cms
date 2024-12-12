@@ -9,16 +9,16 @@ export const ButtonDelete = (props: Props) => {
   return (
     <Button
       onClick={onClick}
-      backgroundColor={"#9c6e6e"}
+      backgroundColor={"#e55353"}
       color={"white"}
       _hover={{
-        backgroundColor: "#9c6e6e",
+        backgroundColor: "#e55353",
         transform: "scale(1.1)",
       }}
       transition="transform 0.2s ease-in-out"
       width={"120px"}
     >
-      Delete
+      Xoá
     </Button>
   );
 };

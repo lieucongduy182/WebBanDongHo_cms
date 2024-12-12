@@ -78,8 +78,8 @@ export const DonDatHangPage = () => {
                 <Th>Ngày đặt</Th>
                 <Th>Nhà cung cấp</Th>
                 <Th>Nhân viên</Th>
-                <Th>Edit</Th>
-                <Th>Delete</Th>
+                <Th>Chỉnh sửa</Th>
+                <Th>Xoá</Th>
               </Tr>
             </Thead>
             <Tbody>

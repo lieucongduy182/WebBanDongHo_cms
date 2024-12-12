@@ -87,14 +87,14 @@ export const ModalTrangThai = (props: Props) => {
       });
 
       toast({
-        title: "Update trạng thái đơn hàng",
+        title: "Chỉnh sửa trạng thái đơn hàng",
         status: "success",
-        description: "Update trạng thái đơn hàng thành công",
+        description: "Chỉnh sửa trạng thái đơn hàng thành công",
       });
       dispatch(getListDonHang());
     } catch (error) {
       toast({
-        title: "Update trạng thái đơn hàng",
+        title: "Chỉnh sửa trạng thái đơn hàng",
         status: "error",
         description: "Đã xảy ra lỗi, update đơn hàng thất bại",
       });

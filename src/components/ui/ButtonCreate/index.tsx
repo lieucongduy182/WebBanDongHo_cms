@@ -10,10 +10,10 @@ export const ButtonCreate = (props: Props) => {
   return (
     <Button
       onClick={onClick}
-      backgroundColor={"#6e9c92"}
+      backgroundColor={"#1b9e3e"}
       color={"white"}
       _hover={{
-        backgroundColor: "#6e9c92",
+        backgroundColor: "#1b9e3e",
         transform: "scale(1.1)",
       }}
       transition="transform 0.2s ease-in-out"

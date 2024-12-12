@@ -64,13 +64,13 @@ const NhanVienEdit = () => {
       await NhanVienService.updateNhanVien(data.manv as string, data);
 
       toast({
-        title: "Update nhân viên",
-        description: "Update nhân viên thành công!",
+        title: "Chỉnh sửa nhân viên",
+        description: "Chỉnh sửa nhân viên thành công!",
         status: "success",
       });
     } catch (error) {
       toast({
-        title: "Update nhân viên",
+        title: "Chỉnh sửa nhân viên",
         description: "Đã xảy ra lỗi, vui lòng thử lại sau!",
         status: "error",
       });
@@ -109,7 +109,7 @@ const NhanVienEdit = () => {
       <TitlePage
         linkReturn={"/admin/nhanvien"}
         isShowButtonCreate={false}
-        title="Update nhân viên"
+        title="Chỉnh sửa nhân viên"
       />
 
       {renderForm()}

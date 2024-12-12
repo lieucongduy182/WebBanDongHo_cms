@@ -96,7 +96,11 @@ const HoaDonPage = () => {
   return (
     <PageWrapper>
       <Flex direction={"column"} gap={10}>
-        <TitlePage title={"Danh sách Hoá đơn"} isShowButtonCreate={false} />
+        <TitlePage
+          title={"Danh sách Hoá đơn"}
+          isShowButtonCreate={false}
+          isHideButtonReturn
+        />
 
         {renderData()}
       </Flex>

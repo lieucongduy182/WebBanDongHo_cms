@@ -155,10 +155,10 @@ const DonHangUserPage = () => {
                   <Td>{ConvertPrice(donhang.tongTien)}</Td>
                   <Td>
                     <Button
-                      background={"#6e9c92"}
+                      background={"#3399ff"}
                       color={"white"}
                       _hover={{
-                        backgroundColor: "#6e9c92",
+                        backgroundColor: "#3399ff",
                         transform: "scale(1.1)",
                       }}
                       transition="transform 0.2s ease-in-out"

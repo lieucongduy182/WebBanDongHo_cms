@@ -25,7 +25,7 @@ export const Header = () => {
     navigate("/admin/thongtintaikhoan");
   };
   return (
-    <Box w={"100%"} height={"75px"} backgroundColor={"#6e9c92"}>
+    <Box w={"100%"} height={"75px"} backgroundColor={"#1e293b"}>
       <Box height={"100%"} px={{ lg: "60px", xl: "72px" }}>
         <Flex
           height={"100%"}
